@@ -54,9 +54,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Inheritance\readme.txt" />
+    <None Include="Inheritance\readme.md" />
     <None Include="Polymorphism\DynamicPolymorphism\readme.md" />
-    <Content Include="Polymorphism\readme.txt" />
+    <None Include="Polymorphism\readme.md" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
