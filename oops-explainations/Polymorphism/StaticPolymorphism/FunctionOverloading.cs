@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace oops_explainations.Polymorphism
+﻿namespace oops_explainations.Polymorphism.StaticPolymorphism
 {
     /*
      * The following example shows using function Create() to create new customer object with different data types:

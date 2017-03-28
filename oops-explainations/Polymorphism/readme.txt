@@ -7,7 +7,8 @@ The mechanism of linking a function with an object during compile time is called
 
 Function overloading
 Operator overloading
-We discuss operator overloading in next chapter.
 
 Function Overloading
 You can have multiple definitions for the same function name in the same scope. The definition of the function must differ from each other by the types and/or the number of arguments in the argument list. You cannot overload function declarations that differ only by return type.
+
+
