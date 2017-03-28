@@ -1,4 +1,6 @@
-﻿namespace oops_explainations.Inheritance
+﻿using oops_explainations.MultipleInheritance;
+
+namespace oops_explainations.Inheritance
 {
     /*
      Inheritance allows us to define a class in terms of another class, 
@@ -15,12 +17,11 @@
 
     public class Customer
     {
-
         protected string FirstName { get; set; }
         protected string LastName { get; set; }
     }
 
-    public class SilverCustomer : Customer
+    public class RegularCustomer : Customer
     {
         //derive class can access the protected properties of the base class
         public void UpdateName(string firstName, string lastName)
@@ -30,7 +31,7 @@
         }
     }
 
-    public class PlatinumCustomer : Customer
+    public class GoldCustomer : Customer
     {
         //derive class can access the protected properties of the base class
         public void UpdateName(string firstName, string lastName)

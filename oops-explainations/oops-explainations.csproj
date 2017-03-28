@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Inheritance\Customer.cs" />
+    <Compile Include="Inheritance\Inheritance.cs" />
     <Compile Include="Inheritance\MultipleInheritance.cs" />
     <Compile Include="Inheritance\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
