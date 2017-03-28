@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Inheritance\readme.txt" />
+    <None Include="Polymorphism\DynamicPolymorphism\readme.md" />
     <Content Include="Polymorphism\readme.txt" />
   </ItemGroup>
   <ItemGroup />
