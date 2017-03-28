@@ -45,6 +45,7 @@
     <Compile Include="Inheritance\Inheritance.cs" />
     <Compile Include="Inheritance\MultipleInheritance.cs" />
     <Compile Include="Inheritance\Program.cs" />
+    <Compile Include="Polymorphism\DifferentDataTypes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Inheritance\readme.txt" />
+    <Content Include="Polymorphism\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

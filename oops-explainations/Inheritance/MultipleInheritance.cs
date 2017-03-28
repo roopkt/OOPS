@@ -44,7 +44,7 @@ namespace oops_explainations.MultipleInheritance
 
 
     /*
-     Platinum customer can do 2 things it can update name and also issue coupon. 
+     GoldCustomer customer can do 2 things it can update name and also issue coupon. 
      Therefore, we can use 2 interfaces and such that multiple inheritance is poosible. 
     */
     public class GoldCustomer : Customer, ICanUpdateName, ICanIssueCoupons
